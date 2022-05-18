@@ -1,6 +1,8 @@
+server:
+  port: 0
+spring.h2.console.enabled: true
 spring:
-  cloud:
-    config:
-      server:
-        git:
-          uri: https://github.com/rafizs79/springms
+  jpa:
+    hibernate:
+      ddl-auto: none
+custom.property.value: 8

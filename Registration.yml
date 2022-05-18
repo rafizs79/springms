@@ -1,6 +1,6 @@
 custom:
   api:
-    version: 15
+    version: 16
   endpoints:
     web:
       exposure:
